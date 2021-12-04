@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "partial-dom-renderer/dist",
-    "isolatedModules": true
+    "module": "CommonJS",
+    "noEmit": false
   },
   "extends": "./tsconfig.json",
-  "files": ["./partial-dom-renderer/index.ts"]
+  "include": ["./partial-dom-renderer/index.ts"]
 }
