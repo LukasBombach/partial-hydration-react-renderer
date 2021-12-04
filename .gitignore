@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+partial-dom-renderer/**/*.
+*.tsbuildinfo
+
 # dependencies
 /node_modules
 /.pnp
