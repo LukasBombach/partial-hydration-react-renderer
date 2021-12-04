@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "partial-dom-renderer/dist",
+    "outDir": ".partial-dom-renderer",
     "module": "CommonJS",
     "noEmit": false
   },

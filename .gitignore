@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-partial-dom-renderer/dist
+.partial-dom-renderer
 
 # dependencies
 /node_modules
