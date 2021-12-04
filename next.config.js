@@ -1,6 +1,9 @@
 const { resolve } = require("path");
 
-const partialDomRenderer = resolve(__dirname, "partial-dom-renderer/index.js");
+const partialDomRenderer = resolve(
+  __dirname,
+  "partial-dom-renderer/dist/index.js"
+);
 
 /** @type {import('next').NextConfig} */
 module.exports = {
