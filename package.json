@@ -2,6 +2,7 @@
   "name": "partial-hydration-react-renderer",
   "private": true,
   "scripts": {
+    "dev:renderer": "tsc --project tsconfig.renderer.json",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
