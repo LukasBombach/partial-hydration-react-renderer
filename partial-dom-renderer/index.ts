@@ -1,4 +1,7 @@
-import Reconciler, { HostConfig } from "react-reconciler";
+import Reconciler from "react-reconciler";
+
+import type { ReactNode } from "react";
+import type { HostConfig, ReactPortal } from "react-reconciler";
 
 type OpaqueHandle = any;
 
@@ -360,6 +363,19 @@ const PartialDOMRenderer = {
     const root = reconciler.createContainer(container, 0, false, null);
     reconciler.updateContainer(component, root, null);
   },
+  hydrate(component: any, container: any) {
+    //   const root = reconciler.createContainer(container, 0, false, null);
+    //   reconciler.updateContainer(component, root, null);
+    // reconciler.updateContainer
+  },
 };
+
+export function createPortal(
+  children: ReactNode,
+  container: Element,
+  key?: null | string
+): ReactPortal {
+  return reconciler.createPortal(children, container, null, key);
+}
 
 export default PartialDOMRenderer;
