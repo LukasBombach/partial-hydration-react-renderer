@@ -1,14 +1,8 @@
 {
   "name": "partial-hydration-react-renderer",
   "private": true,
-  "scripts": {
-    "dev": "concurrently -r \"next dev\" \"tsc-watch --noClear -p tsconfig.renderer.json\"",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "scripts": {},
   "dependencies": {
-    "next": "12.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -17,9 +11,6 @@
     "@types/react": "17.0.37",
     "@types/react-dom": "17.0.11",
     "@types/react-reconciler": "0.26.4",
-    "concurrently": "6.4.0",
-    "eslint": "7",
-    "eslint-config-next": "12.0.4",
     "react-reconciler": "0.26.2",
     "tsc-watch": "4.5.0",
     "typescript": "4.5.2"
